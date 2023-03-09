@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --brown: #d5966c;
+  --black: #151515;
+  --grey: #444444;
+}
