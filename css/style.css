@@ -244,6 +244,146 @@ footer a {
     gap: 20px;
   }
 }
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  header {
+    position: relative;
+    width: 100%;
+  }
+  .black {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 799px;
+    background-color: black;
+  }
+  .black h1 {
+    position: absolute;
+    width: 514px;
+    top: 189px;
+    left: 165px;
+    font-size: 96px;
+    line-height: 88px;
+    color: white;
+  }
+  .woman {
+    position: absolute;
+    top: 0;
+    left: 450px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+  }
+  .woman img {
+    width: 100%;
+  }
+  .woman h1 {
+    position: absolute;
+    top: 189px;
+    left: -285px;
+    width: 514px;
+    margin: 0;
+    font-size: 96px;
+    line-height: 88px;
+  }
+  .header-text {
+    position: absolute;
+    top: 190px;
+    left: 920px;
+  }
+  header p {
+    margin: 0;
+    width: 350px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .button-index {
+    display: inline-block;
+    margin: 65px 0 0;
+    padding: 24px 0 24px 35px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3.5px;
+    color: white;
+    background-color: var(--black);
+  }
+  .button-index span {
+    margin-left: 25px;
+    padding: 24px;
+    background-color: var(--brown);
+  }
+  main {
+    margin: 0 auto 120px;
+    width: 90%;
+  }
+  main img {
+    width: 100%;
+  }
+  .up {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .up h2 {
+    margin: 25px 0 21px;
+    font-size: 50px;
+    line-height: 45px;
+  }
+  .up p {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 28px;
+    order: -1;
+  }
+  .left {
+    margin-bottom: 16px;
+  }
+  .inspired {
+    margin-top: 16px;
+    box-sizing: border-box;
+    padding: 48px 24px;
+    width: 100%;
+    background-color: var(--black);
+    color: white;
+  }
+  .inspired h2 {
+    margin-bottom: 24px;
+    font-size: 50px;
+    line-height: 45px;
+    color: white;
+  }
+  .inspired p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  footer {
+    box-sizing: border-box;
+    background-color: var(--black);
+    padding: 48px 32px;
+  }
+  footer h3 {
+    font-size: 23px;
+    line-height: 22px;
+    color: white;
+  }
+  footer p {
+    margin: 38px 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+  }
+  footer a {
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+}
 /* ----------location------------ */
 .main-wrap-location {
   position: relative;
