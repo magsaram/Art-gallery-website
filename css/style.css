@@ -250,8 +250,10 @@ footer a {
     margin: 0 auto;
   }
   header {
+    margin-bottom: 180px;
     position: relative;
     width: 100%;
+    height: 800px;
   }
   .black {
     position: absolute;
@@ -302,64 +304,53 @@ footer a {
     font-size: 22px;
     line-height: 32px;
   }
-  .button-index {
-    display: inline-block;
-    margin: 65px 0 0;
-    padding: 24px 0 24px 35px;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 3.5px;
-    color: white;
-    background-color: var(--black);
-  }
-  .button-index span {
-    margin-left: 25px;
-    padding: 24px;
-    background-color: var(--brown);
-  }
   main {
     margin: 0 auto 120px;
-    width: 90%;
+    width: 1110px;
   }
   main img {
     width: 100%;
   }
   .up {
+    margin-bottom: 30px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
   .up h2 {
-    margin: 25px 0 21px;
-    font-size: 50px;
-    line-height: 45px;
+    margin: 0 0 32px;
+    font-size: 60px;
+    line-height: 60px;
   }
   .up p {
-    margin-bottom: 32px;
-    font-size: 18px;
-    line-height: 28px;
-    order: -1;
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .down {
+    margin-bottom: 180px;
+    display: flex;
+    gap: 30px;
   }
   .left {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   .inspired {
-    margin-top: 16px;
-    box-sizing: border-box;
-    padding: 48px 24px;
-    width: 100%;
-    background-color: var(--black);
-    color: white;
+    margin-top: 0;
+    padding: 50px 48px 0;
   }
   .inspired h2 {
-    margin-bottom: 24px;
-    font-size: 50px;
-    line-height: 45px;
-    color: white;
+    margin-bottom: 32px;
+    font-size: 60px;
+    line-height: 60px;
   }
   .inspired p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 32px;
   }
   footer {
     box-sizing: border-box;
