@@ -353,20 +353,24 @@ footer a {
     line-height: 32px;
   }
   footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
     box-sizing: border-box;
     background-color: var(--black);
-    padding: 48px 32px;
+    padding: 80px 165px;
   }
   footer h3 {
-    font-size: 23px;
-    line-height: 22px;
+    width: 200px;
+    font-size: 40px;
+    line-height: 40px;
     color: white;
   }
   footer p {
-    margin: 38px 0;
-    font-size: 16px;
-    line-height: 26px;
-    color: white;
+    width: 430px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
   }
   footer a {
     margin-right: 20px;
